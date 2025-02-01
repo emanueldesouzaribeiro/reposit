@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Open Sans';
+}
+
+header{
+	width: 100%;
+	height: 65px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+h1{
+	padding: 20px;
+}
+
+#menu ul{
+	margin-right: 5%;
+}
+
+#menu li{
+	margin-right: 0.5%;
+	display: inline;
+	padding: 20px;
+	float: right;
+}
+
+#menu li a{
+	color: #ffffff;
+	font-family: 'Open Sans';
+	text-decoration: none;
+	padding: 10px;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	margin-left: 5%;
+	color:#fff;
+	text-decoration: none;
+	float: left;
+	font-size: 20px;
+}
+
+#banner{
+	position: relative;
+	background:url(img/code-3.jpeg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position:0px 0px ;
+	/*margin-bottom: 30px;*/
+}
+
+#banner p{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 3.5em;
+	top:48%;
+	/*left: 400px;*/
+}
+
+.secao{
+	position: absolute;
+	width: 100%;
+	/*height: 100vh;*/
+	background-color: #eee;
+}
+
+.servicos{
+	padding: 1.5%;
+	margin-top: 60px;
+	margin-left: 10%;
+	width: 35%;
+	float: left;
+	border-radius:7px;
+	/*height: 300px;*/
+	color:#2d2d2d;
+	/*background-color: #eee;*/
+	text-align: center;
+}
+
+.servicos h2{
+	font-family: 'Roboto';
+	font-size: 2.4em;
+	margin-bottom: 2%;
+}
+
+.servicos p{
+	font-family: 'Open Sans';
+	font-size: 120%;
+	line-height: 30px;
+	
+}
+
+.tecnologias{
+	margin:10% 0;
+	width: 100%;	
+}
+
+.tecnologias h2{
+	margin-bottom: 4%;
+}
+
+.tecno{
+	display: inline-block;
+	margin-left: 2%;
+}
+
+footer{
+	position: relative;
+	background-color: red;
+	font-size: 40px;
+}
